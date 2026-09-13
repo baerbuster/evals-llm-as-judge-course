@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem names concrete details—"the last bowl of chili," "Priya," and "Auckland"—directly from the situation rather than relying on generic emotion.

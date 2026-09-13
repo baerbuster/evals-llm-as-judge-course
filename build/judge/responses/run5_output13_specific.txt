@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem stays abstract and never mentions the five dollar bill, the movie ticket, or the winter coat pocket.

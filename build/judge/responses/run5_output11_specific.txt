@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem uses only abstract imagery ("a hand in the dark," "the hot thing rising") without naming any concrete detail like the car, the key, the parking lot, or the milk.

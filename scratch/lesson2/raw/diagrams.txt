@@ -1,0 +1,137 @@
+SECTION: 1
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="100%">
+  <rect x="0" y="0" width="800" height="350" fill="#ffffff"/>
+  <text x="40" y="36" font-family="sans-serif" font-size="22" fill="#000000">run 5, output 0</text>
+  <rect x="40" y="52" width="720" height="60" fill="#ffffff" stroke="#000000"/>
+  <text x="56" y="90" font-family="sans-serif" font-size="18" fill="#000000">the quiet has a shape it did not have</text>
+  <line x1="250" y1="112" x2="250" y2="166" stroke="#000000"/>
+  <path d="M 250,178 L 244,164 L 256,164 Z" fill="#000000"/>
+  <line x1="560" y1="112" x2="560" y2="166" stroke="#000000"/>
+  <path d="M 560,178 L 554,164 L 566,164 Z" fill="#000000"/>
+  <rect x="60" y="180" width="380" height="140" fill="#ffffff" stroke="#000000"/>
+  <text x="80" y="212" font-family="sans-serif" font-size="18" fill="#000000">4 code rules</text>
+  <text x="80" y="244" font-family="sans-serif" font-size="18" fill="#000000">shape, line_length,</text>
+  <text x="80" y="270" font-family="sans-serif" font-size="18" fill="#000000">no_preamble, no_copy</text>
+  <text x="80" y="303" font-family="sans-serif" font-size="18" fill="#000000">cannot check specific</text>
+  <rect x="470" y="180" width="290" height="140" fill="#ffffff" stroke="#000000"/>
+  <text x="490" y="212" font-family="sans-serif" font-size="18" fill="#000000">judge: specific</text>
+  <text x="490" y="248" font-family="sans-serif" font-size="18" fill="#c62828">FAIL</text>
+  <text x="490" y="284" font-family="sans-serif" font-size="18" fill="#000000">no detail from</text>
+  <text x="490" y="308" font-family="sans-serif" font-size="18" fill="#000000">the situation</text>
+</svg>
+The four code rules from lesson 1 run over run 5, output 0 and none of them can see that the poem never names the dog, while the judge fails it on specific.
+
+SECTION: 2
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" width="100%">
+  <rect x="0" y="0" width="800" height="330" fill="#ffffff"/>
+  <text x="40" y="36" font-family="sans-serif" font-size="22" fill="#000000">run 5, specific</text>
+  <text x="370" y="82" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">you: FAIL</text>
+  <text x="630" y="82" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">you: PASS</text>
+  <text x="230" y="150" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="end">judge: FAIL</text>
+  <text x="230" y="250" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="end">judge: PASS</text>
+  <rect x="240" y="95" width="260" height="100" fill="#ffffff" stroke="#000000"/>
+  <rect x="500" y="95" width="260" height="100" fill="#ffffff" stroke="#000000"/>
+  <rect x="240" y="195" width="260" height="100" fill="#ffffff" stroke="#000000"/>
+  <rect x="500" y="195" width="260" height="100" fill="#ffffff" stroke="#000000"/>
+  <text x="370" y="140" font-family="sans-serif" font-size="18" fill="#2e7d32" text-anchor="middle">true positive</text>
+  <text x="370" y="170" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">output 0</text>
+  <text x="630" y="140" font-family="sans-serif" font-size="18" fill="#c62828" text-anchor="middle">false positive</text>
+  <text x="630" y="170" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">output 14</text>
+  <text x="370" y="240" font-family="sans-serif" font-size="18" fill="#c62828" text-anchor="middle">false negative</text>
+  <text x="370" y="270" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">output 6</text>
+  <text x="630" y="240" font-family="sans-serif" font-size="18" fill="#2e7d32" text-anchor="middle">true negative</text>
+  <text x="630" y="270" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">output 4</text>
+</svg>
+The judge's verdict crossed with your label on specific gives four buckets, with run 5 outputs 0, 14, 6 and 4 falling into one each.
+
+SECTION: 3
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="100%">
+  <rect x="0" y="0" width="800" height="300" fill="#ffffff"/>
+  <text x="40" y="40" font-family="sans-serif" font-size="22" fill="#000000">run 5, specific</text>
+  <text x="60" y="85" font-family="sans-serif" font-size="18" fill="#000000">judge FAIL: 10</text>
+  <rect x="60" y="95" width="405" height="40" fill="#2e7d32"/>
+  <rect x="465" y="95" width="45" height="40" fill="#c62828"/>
+  <rect x="60" y="95" width="450" height="40" fill="none" stroke="#000000"/>
+  <text x="262" y="160" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">TP 9</text>
+  <text x="487" y="160" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">FP 1</text>
+  <text x="535" y="122" font-family="sans-serif" font-size="18" fill="#000000">precision 9/10 = 0.90</text>
+  <text x="60" y="190" font-family="sans-serif" font-size="18" fill="#000000">you FAIL: 11</text>
+  <rect x="60" y="200" width="405" height="40" fill="#2e7d32"/>
+  <rect x="465" y="200" width="90" height="40" fill="#c62828"/>
+  <rect x="60" y="200" width="495" height="40" fill="none" stroke="#000000"/>
+  <text x="262" y="265" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">TP 9</text>
+  <text x="510" y="265" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">FN 2</text>
+  <text x="580" y="227" font-family="sans-serif" font-size="18" fill="#000000">recall 9/11 = 0.82</text>
+</svg>
+Precision divides the nine agreements by the ten poems the judge failed, and recall divides the same nine by the eleven poems you failed.
+
+SECTION: 4
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="100%">
+  <rect x="0" y="0" width="800" height="340" fill="#ffffff"/>
+  <text x="40" y="36" font-family="sans-serif" font-size="22" fill="#000000">two pulls on one prompt</text>
+  <rect x="290" y="50" width="220" height="60" fill="#ffffff" stroke="#000000"/>
+  <text x="400" y="88" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">judge prompt</text>
+  <line x1="200" y1="168" x2="330" y2="110" stroke="#000000"/>
+  <path d="M 330,110 L 319.6,121.2 L 314.8,110.2 Z" fill="#000000"/>
+  <line x1="600" y1="168" x2="470" y2="110" stroke="#000000"/>
+  <path d="M 470,110 L 480.4,121.2 L 485.2,110.2 Z" fill="#000000"/>
+  <text x="185" y="132" font-family="sans-serif" font-size="18" fill="#000000">narrow</text>
+  <text x="560" y="132" font-family="sans-serif" font-size="18" fill="#000000">widen</text>
+  <rect x="30" y="170" width="330" height="140" fill="#ffffff" stroke="#000000"/>
+  <text x="50" y="205" font-family="sans-serif" font-size="18" fill="#c62828">false positive</text>
+  <text x="50" y="235" font-family="sans-serif" font-size="18" fill="#000000">output 14</text>
+  <text x="50" y="263" font-family="sans-serif" font-size="18" fill="#000000">judge FAIL, you PASS</text>
+  <text x="50" y="295" font-family="sans-serif" font-size="18" fill="#000000">fix: narrow FAIL</text>
+  <rect x="440" y="170" width="330" height="140" fill="#ffffff" stroke="#000000"/>
+  <text x="460" y="205" font-family="sans-serif" font-size="18" fill="#c62828">false negative</text>
+  <text x="460" y="235" font-family="sans-serif" font-size="18" fill="#000000">output 6</text>
+  <text x="460" y="263" font-family="sans-serif" font-size="18" fill="#000000">judge PASS, you FAIL</text>
+  <text x="460" y="295" font-family="sans-serif" font-size="18" fill="#000000">fix: widen FAIL</text>
+</svg>
+Output 14 asks you to narrow what counts as a failure and output 6 asks you to widen it, so the two fixes pull the same judge prompt in opposite directions.
+
+SECTION: 5
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="100%">
+  <rect x="0" y="0" width="800" height="360" fill="#ffffff"/>
+  <text x="40" y="40" font-family="sans-serif" font-size="22" fill="#000000">history table</text>
+  <text x="460" y="40" font-family="sans-serif" font-size="18" fill="#000000">judge: precision 0.90, recall 0.82</text>
+  <text x="240" y="76" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">specific</text>
+  <text x="410" y="76" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">no_preamble</text>
+  <text x="560" y="76" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">advice</text>
+  <text x="690" y="76" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">pass rate</text>
+  <rect x="60" y="86" width="700" height="225" fill="none" stroke="#000000"/>
+  <line x1="60" y1="131" x2="760" y2="131" stroke="#000000"/>
+  <line x1="60" y1="176" x2="760" y2="176" stroke="#000000"/>
+  <line x1="60" y1="221" x2="760" y2="221" stroke="#000000"/>
+  <line x1="60" y1="266" x2="760" y2="266" stroke="#000000"/>
+  <line x1="160" y1="86" x2="160" y2="311" stroke="#000000"/>
+  <line x1="320" y1="86" x2="320" y2="311" stroke="#000000"/>
+  <line x1="500" y1="86" x2="500" y2="311" stroke="#000000"/>
+  <line x1="620" y1="86" x2="620" y2="311" stroke="#000000"/>
+  <text x="76" y="116" font-family="sans-serif" font-size="18" fill="#000000">run 1</text>
+  <text x="76" y="161" font-family="sans-serif" font-size="18" fill="#000000">run 2</text>
+  <text x="76" y="206" font-family="sans-serif" font-size="18" fill="#000000">run 3</text>
+  <text x="76" y="251" font-family="sans-serif" font-size="18" fill="#000000">run 4</text>
+  <text x="76" y="296" font-family="sans-serif" font-size="18" fill="#000000">run 5</text>
+  <text x="240" y="116" font-family="sans-serif" font-size="18" fill="#2e7d32" text-anchor="middle">clean</text>
+  <text x="240" y="161" font-family="sans-serif" font-size="18" fill="#2e7d32" text-anchor="middle">clean</text>
+  <text x="240" y="206" font-family="sans-serif" font-size="18" fill="#c62828" text-anchor="middle">fails</text>
+  <text x="240" y="251" font-family="sans-serif" font-size="18" fill="#c62828" text-anchor="middle">fails</text>
+  <text x="240" y="296" font-family="sans-serif" font-size="18" fill="#c62828" text-anchor="middle">fails</text>
+  <text x="410" y="116" font-family="sans-serif" font-size="18" fill="#2e7d32" text-anchor="middle">clean</text>
+  <text x="410" y="161" font-family="sans-serif" font-size="18" fill="#2e7d32" text-anchor="middle">clean</text>
+  <text x="410" y="206" font-family="sans-serif" font-size="18" fill="#2e7d32" text-anchor="middle">clean</text>
+  <text x="410" y="251" font-family="sans-serif" font-size="18" fill="#2e7d32" text-anchor="middle">clean</text>
+  <text x="410" y="296" font-family="sans-serif" font-size="18" fill="#c62828" text-anchor="middle">fails</text>
+  <text x="560" y="116" font-family="sans-serif" font-size="18" fill="#2e7d32" text-anchor="middle">clean</text>
+  <text x="560" y="161" font-family="sans-serif" font-size="18" fill="#2e7d32" text-anchor="middle">clean</text>
+  <text x="560" y="206" font-family="sans-serif" font-size="18" fill="#2e7d32" text-anchor="middle">clean</text>
+  <text x="560" y="251" font-family="sans-serif" font-size="18" fill="#c62828" text-anchor="middle">fails</text>
+  <text x="560" y="296" font-family="sans-serif" font-size="18" fill="#c62828" text-anchor="middle">fails</text>
+  <rect x="630" y="100" width="120" height="16" fill="#2e7d32"/>
+  <rect x="630" y="145" width="108" height="16" fill="#2e7d32"/>
+  <rect x="630" y="190" width="92" height="16" fill="#2e7d32"/>
+  <rect x="630" y="235" width="76" height="16" fill="#2e7d32"/>
+  <rect x="630" y="280" width="60" height="16" fill="#2e7d32"/>
+</svg>
+The run-by-criterion table with the judge's precision and recall printed above it: specific breaks at run 3, advice at run 4, no_preamble at run 5, and the pass rate falls every run.

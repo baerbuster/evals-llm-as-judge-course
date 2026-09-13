@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The line "Fix the next one too; it costs you nothing" directly instructs the person on what to do.

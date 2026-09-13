@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem names concrete details from the situation, specifically "Bergen" and "marine biology" (via "learn the salted dark" and "the sea will teach you its long name"), grounding it beyond generic feeling.

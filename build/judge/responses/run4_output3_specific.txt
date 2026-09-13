@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem uses only generic imagery (grey room, a voice, the afternoon) without naming any concrete detail like the chair number forty-two, the DMV, or a ticket number.

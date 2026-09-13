@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem relies entirely on abstract images like "fear," "worry," and "the long night" without naming any concrete detail such as the cat, the sweater, or the twelve hours of sleep.

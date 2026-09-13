@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem uses only abstract imagery ("long worry," "sleep now fills the house") without naming any concrete detail like the cat, its thinness, its noise, the sweater, or the duration of sleep.

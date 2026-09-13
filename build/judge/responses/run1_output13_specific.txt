@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem names concrete details—the "five" (dollar bill) and "February ticket stub"—directly from the situation.

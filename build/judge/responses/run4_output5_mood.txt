@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem's relieved, grateful tone matches the good news of the tree surviving and the tornado missing them.

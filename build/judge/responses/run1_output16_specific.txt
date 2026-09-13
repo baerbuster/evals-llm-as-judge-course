@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem explicitly names the "three days" and the "small black period," concrete details drawn directly from the situation.

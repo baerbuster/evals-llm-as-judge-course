@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem names concrete details like "kitchen floor," "the water," and "the dog's bowl" directly from the situation.

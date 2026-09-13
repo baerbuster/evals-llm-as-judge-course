@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem uses only vague, generic language ("small complaining thing," "such mending") without naming the gate, olive oil, or WD-40 from the situation.

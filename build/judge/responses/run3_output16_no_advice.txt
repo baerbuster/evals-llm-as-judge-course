@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem describes feelings and imagery without instructing the person to take any action.

@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem explicitly names "olive oil," "WD-40," and "the gate," which are concrete details drawn directly from the situation.

@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem names "Bergen" and references marine biology through imagery of the sea and learning "among the green."

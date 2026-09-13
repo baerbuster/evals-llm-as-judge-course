@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem only describes the rain and the unturned page without instructing the reader to do anything.

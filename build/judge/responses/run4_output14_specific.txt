@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem specifically mentions Priya moving to Auckland on Sunday and finishing the chili, both concrete details from the situation.

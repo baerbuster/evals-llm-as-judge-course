@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The line "Let it turn there, sweet and green, for a stranger" is an imperative instruction telling the person what to do with the air freshener.

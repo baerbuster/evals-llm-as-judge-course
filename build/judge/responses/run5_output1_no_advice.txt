@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem describes the situation and future imagery without issuing any direct commands or advice to the person.

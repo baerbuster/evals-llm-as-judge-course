@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem uses generic imagery about first steps and joy but never mentions the kitchen tile, the dog, or the water bowl from the actual situation.

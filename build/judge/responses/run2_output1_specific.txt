@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem names "Bergen" and "the letter," concrete details drawn directly from the situation.

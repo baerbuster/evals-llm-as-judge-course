@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem simply describes the grief and absence without offering any instructions or advice to the person.

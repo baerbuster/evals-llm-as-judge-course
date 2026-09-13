@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem explicitly instructs the person with commands like "Sit down. Stop scrubbing. Breathe until it comes."

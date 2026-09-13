@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem simply describes the scene and its aftermath without directing the reader to take any action.

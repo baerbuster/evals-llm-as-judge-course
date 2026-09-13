@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem includes concrete details like "the bowl scraped out," "the freezer humming cold," and "the kitchen keeping one more empty chair," directly referencing the situation.

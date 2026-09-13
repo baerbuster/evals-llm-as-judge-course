@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem conveys tense, anxious waiting without presuming an outcome, matching the uncertain, fearful mood of awaiting biopsy results.

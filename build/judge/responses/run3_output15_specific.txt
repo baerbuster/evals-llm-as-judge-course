@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem includes concrete details like "Monday," "oven," and "bread," directly referencing the bakery job.

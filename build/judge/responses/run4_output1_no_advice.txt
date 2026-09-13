@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem speaks in future-tense predictions and blessing ("You will go far... and come back glittering") rather than issuing imperatives or advice about what the person should do.

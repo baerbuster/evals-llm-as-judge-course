@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem describes the situation without issuing any commands or advice to the person.

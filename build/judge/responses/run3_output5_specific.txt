@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem names concrete details from the situation—the oak tree and the tornado passing two streets away.

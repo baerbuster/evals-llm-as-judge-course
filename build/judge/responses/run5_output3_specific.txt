@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem uses only abstract imagery like "hours lie flat and yellow" without mentioning any concrete details such as the chair number, the DMV, or the waiting number.

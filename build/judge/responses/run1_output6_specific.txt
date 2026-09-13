@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem names concrete details from the situation—the burned first pancake, the grandmother, and the smoke alarm.

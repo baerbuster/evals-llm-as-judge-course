@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem names concrete details from the situation, specifically "Chair forty-two" and the unclaimed "Numbers."

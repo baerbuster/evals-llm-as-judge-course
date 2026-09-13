@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem names concrete details from the situation, specifically the scoured kitchen and "three times" and "Friday."

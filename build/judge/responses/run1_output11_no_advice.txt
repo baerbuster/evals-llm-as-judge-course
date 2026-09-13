@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem describes the incident and imagery without offering any suggestions or instructions to the person.

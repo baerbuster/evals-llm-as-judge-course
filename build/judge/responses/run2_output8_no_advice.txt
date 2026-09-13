@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem simply describes the scene and the speaker's feelings without instructing the person to take any action.

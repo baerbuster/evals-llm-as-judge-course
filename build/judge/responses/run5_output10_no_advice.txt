@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The lines "Put it down. Go out and walk in the weather." directly instruct the person on what to do.

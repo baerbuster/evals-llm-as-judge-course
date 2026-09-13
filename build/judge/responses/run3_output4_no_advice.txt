@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem explicitly instructs the person to "go down and file the papers; make him pay," which is direct advice.

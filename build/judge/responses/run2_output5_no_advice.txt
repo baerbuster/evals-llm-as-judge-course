@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem only describes observations and feelings without issuing any directives or advice to the reader.

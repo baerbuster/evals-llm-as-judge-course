@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem uses only generic imagery ("great noise," "everything still standing," "sky rinsed clean") without naming any concrete detail like the tornado, the oak tree, or the two streets.

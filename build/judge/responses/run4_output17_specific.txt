@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem uses only vague references like "annoyance" and "something that complained" without naming the gate, squeaking, or olive oil.

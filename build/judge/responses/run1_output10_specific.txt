@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem names concrete details from the situation, such as "six days of rain" and "the library book," directly reflecting the prompt.

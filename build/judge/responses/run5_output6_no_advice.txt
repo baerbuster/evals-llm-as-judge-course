@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem offers imagery and reflection without issuing any commands or instructions to the reader.

@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem describes and reflects on the experience without instructing the person to take any action.

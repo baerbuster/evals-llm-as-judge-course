@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem names concrete details like the "oak" tree and the storm passing "on the next street," directly reflecting the situation.

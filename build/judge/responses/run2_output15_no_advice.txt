@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem describes feelings and imagery about the new job without instructing the person to take any action.

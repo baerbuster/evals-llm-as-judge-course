@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem simply describes the moment without offering any directives or advice to the person.

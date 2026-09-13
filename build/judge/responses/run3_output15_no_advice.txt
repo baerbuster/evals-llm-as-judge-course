@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem describes and celebrates the situation without instructing the person on what actions to take.

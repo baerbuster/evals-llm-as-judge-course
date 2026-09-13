@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem specifically references "the envelope with your mother's name," "Friday," and "the kitchen" shining from scrubbing, all concrete details from the situation.

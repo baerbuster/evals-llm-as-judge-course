@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem uses only generic imagery like "small change" and "grey day" without naming the specific five dollar bill, movie ticket, or winter coat from the situation.

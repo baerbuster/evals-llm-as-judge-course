@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem explicitly instructs the person to "Write the letter" and "Take him to the small court."

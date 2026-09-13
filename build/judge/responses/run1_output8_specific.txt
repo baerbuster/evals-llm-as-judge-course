@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem includes concrete details from the situation, such as the "blue car" and the "pine still turning on its little string."

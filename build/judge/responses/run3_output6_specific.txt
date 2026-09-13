@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem uses only abstract/metaphorical language ("fire," "warm brown smell") without naming any concrete detail like pancake, smoke alarm, or grandmother from the actual situation.

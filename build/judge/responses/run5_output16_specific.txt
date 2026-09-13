@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem explicitly references "three days" and "that small period," concrete details drawn directly from the situation.

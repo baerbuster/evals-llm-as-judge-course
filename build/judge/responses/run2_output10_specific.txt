@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem includes concrete details like "six days" of rain and "the page holds still," directly referencing the situation's specifics.

@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem includes concrete details from the situation, such as "a thumb of scuff," the withheld deposit, and the landlord not answering the phone.

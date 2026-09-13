@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem includes the concrete details of cleaning the kitchen three times and waiting for Friday, both drawn directly from the situation.

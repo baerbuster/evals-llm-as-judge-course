@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem includes concrete details like "milk," "the door's blue flank," and "cart wheels," grounding it in the specific situation.

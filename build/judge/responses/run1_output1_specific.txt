@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem names "Bergen" and references marine biology through images like "salt water," "deep green rooms," and "ocean," grounding it in the specific situation.

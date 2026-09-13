@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem's tone of awed relief and quiet gratitude matches the near-miss survival described, without veering into either mournfulness or inappropriate cheer.

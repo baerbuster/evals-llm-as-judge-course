@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem simply evokes the mood of waiting without instructing the person to take any action.

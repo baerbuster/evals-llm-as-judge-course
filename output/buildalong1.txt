@@ -1,0 +1,50 @@
+== step 1: load the run ==
+run: run5
+outputs: 20
+
+== step 2: one rule, two outputs ==
+output 13  shape  PASS  4 non-empty lines
+output 5  shape  FAIL  5 non-empty lines, expected 4
+
+== step 3: all four rules on every output ==
+output 0  shape  FAIL  5 non-empty lines, expected 4
+output 0  no_preamble  FAIL  first line is a lead-in: Here is a poem for you:
+output 3  no_preamble  FAIL  first line is a lead-in: Sure! Here you go:
+output 5  shape  FAIL  5 non-empty lines, expected 4
+output 7  shape  FAIL  5 non-empty lines, expected 4
+output 7  no_preamble  FAIL  first line is a lead-in: Here is a poem about your daughter:
+output 8  line_length  FAIL  a line has 12 words, limit is 11
+output 10  line_length  FAIL  a line has 14 words, limit is 11
+output 11  no_preamble  FAIL  first line is a lead-in: Here is your poem:
+output 12  no_copy  FAIL  poem repeats: I have never been so glad to see a jetway
+output 15  line_length  FAIL  a line has 12 words, limit is 11
+output 18  shape  FAIL  5 non-empty lines, expected 4
+output 18  no_preamble  FAIL  first line is a lead-in: Sure, here you go:
+checks run: 80
+failed checks: 13
+
+== step 4: rules against the labels ==
+agreements: 78
+disagreements: 2
+output 8  line_length  FAIL  human says pass: a line has 12 words, limit is 11
+output 15  line_length  FAIL  human says pass: a line has 12 words, limit is 11
+
+== step 5: sort every failure into a bucket ==
+wrong_shape: 7  outputs 0, 5, 7, 8, 10, 15, 18
+preamble: 2  outputs 3, 11
+copied: 1  outputs 12
+passed all rules: 10
+pass rate: 0.50
+
+== step 6: one row per run, oldest first ==
+run   wrong_shape  preamble  copied  pass_rate
+run1  0            0         0       1.00
+run2  0            0         0       1.00
+run3  0            0         0       1.00
+run4  0            0         0       1.00
+run5  7            2         1       0.50
+
+== step 7: the trend across the history ==
+runs in history: 5
+grew the most: wrong_shape +7  pass rate 1.00 -> 0.50  getting worse: yes
+

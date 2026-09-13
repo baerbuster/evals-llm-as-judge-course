@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem relies on generic imagery like "fire" and "small ruin" without naming a concrete detail such as the pancake, smoke alarm, or grandmother from the situation.

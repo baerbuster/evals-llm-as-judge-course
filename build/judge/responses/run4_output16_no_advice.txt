@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem explicitly instructs the person to "Call him" and "Do not wait" and "put it down," which are direct commands about what to do.

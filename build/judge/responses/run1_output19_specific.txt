@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem includes concrete details from the situation such as "four nights," "thin loud," "sleeps a whole clock through," and "sweater."

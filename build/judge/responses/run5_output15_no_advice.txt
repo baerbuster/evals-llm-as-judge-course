@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem reflects on the situation and expresses feeling without instructing the person to take any action.

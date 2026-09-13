@@ -1,0 +1,2 @@
+VERDICT: FAIL
+REASON: The poem uses abstract imagery like "time goes yellow" and "long grey afternoon" but never mentions concrete details like the chair number, the DMV, or the ticket number from the actual situation.

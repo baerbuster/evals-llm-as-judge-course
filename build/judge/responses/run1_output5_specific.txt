@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem explicitly names the tornado ("the sky went black and roaring"), the oak tree, and the "two streets over" detail from the situation.

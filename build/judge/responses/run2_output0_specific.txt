@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem names concrete details from the situation, specifically Rufus, the collar, and the jingle in the front hall.

@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem references concrete details from the situation, including "eleven times" rewritten and "Saturday," the wedding day.

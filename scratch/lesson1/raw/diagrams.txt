@@ -1,0 +1,159 @@
+SECTION: 1
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" width="100%">
+  <rect x="0" y="0" width="800" height="330" fill="#ffffff"/>
+  <text x="400" y="34" font-family="sans-serif" font-size="22" fill="#000000" text-anchor="middle">shape: exactly 4 non-empty lines</text>
+  <text x="40" y="72" font-family="sans-serif" font-size="18" fill="#000000">run 1 output 5</text>
+  <text x="420" y="72" font-family="sans-serif" font-size="18" fill="#000000">run 5 output 5</text>
+  <rect x="40" y="86" width="300" height="30" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <rect x="40" y="124" width="300" height="30" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <rect x="40" y="162" width="300" height="30" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <rect x="40" y="200" width="300" height="30" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <text x="54" y="107" font-family="sans-serif" font-size="18" fill="#000000">line 1</text>
+  <text x="54" y="145" font-family="sans-serif" font-size="18" fill="#000000">line 2</text>
+  <text x="54" y="183" font-family="sans-serif" font-size="18" fill="#000000">line 3</text>
+  <text x="54" y="221" font-family="sans-serif" font-size="18" fill="#000000">line 4</text>
+  <rect x="420" y="86" width="300" height="30" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <rect x="420" y="124" width="300" height="30" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <rect x="420" y="162" width="300" height="30" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <rect x="420" y="200" width="300" height="30" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <rect x="420" y="238" width="300" height="30" fill="#ffffff" stroke="#c62828" stroke-width="3"/>
+  <text x="434" y="107" font-family="sans-serif" font-size="18" fill="#000000">line 1</text>
+  <text x="434" y="145" font-family="sans-serif" font-size="18" fill="#000000">line 2</text>
+  <text x="434" y="183" font-family="sans-serif" font-size="18" fill="#000000">line 3</text>
+  <text x="434" y="221" font-family="sans-serif" font-size="18" fill="#000000">line 4</text>
+  <text x="434" y="259" font-family="sans-serif" font-size="18" fill="#c62828">line 5</text>
+  <text x="40" y="302" font-family="sans-serif" font-size="18" fill="#2e7d32">4 lines PASS</text>
+  <text x="420" y="302" font-family="sans-serif" font-size="18" fill="#c62828">5 lines FAIL</text>
+</svg>
+The same situation graded by the shape rule passes in run 1 with four lines and fails in run 5 with five.
+
+SECTION: 2
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="100%">
+  <rect x="0" y="0" width="800" height="300" fill="#ffffff"/>
+  <text x="400" y="32" font-family="sans-serif" font-size="22" fill="#000000" text-anchor="middle">line_length: every line under 12 words</text>
+  <line x1="550" y1="74" x2="550" y2="256" stroke="#000000" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="550" y="276" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">12</text>
+  <text x="40" y="68" font-family="sans-serif" font-size="18" fill="#000000">run 5 output 13</text>
+  <text x="40" y="97" font-family="sans-serif" font-size="18" fill="#000000">line 1</text>
+  <text x="40" y="127" font-family="sans-serif" font-size="18" fill="#000000">line 2</text>
+  <text x="40" y="157" font-family="sans-serif" font-size="18" fill="#000000">line 3</text>
+  <text x="40" y="187" font-family="sans-serif" font-size="18" fill="#000000">line 4</text>
+  <rect x="190" y="80" width="270" height="22" fill="#2e7d32"/>
+  <rect x="190" y="110" width="270" height="22" fill="#2e7d32"/>
+  <rect x="190" y="140" width="240" height="22" fill="#2e7d32"/>
+  <rect x="190" y="170" width="240" height="22" fill="#2e7d32"/>
+  <text x="470" y="97" font-family="sans-serif" font-size="18" fill="#000000">9</text>
+  <text x="470" y="127" font-family="sans-serif" font-size="18" fill="#000000">9</text>
+  <text x="440" y="157" font-family="sans-serif" font-size="18" fill="#000000">8</text>
+  <text x="440" y="187" font-family="sans-serif" font-size="18" fill="#000000">8</text>
+  <text x="655" y="145" font-family="sans-serif" font-size="18" fill="#2e7d32">PASS</text>
+  <text x="40" y="212" font-family="sans-serif" font-size="18" fill="#000000">run 5 output 10</text>
+  <text x="40" y="241" font-family="sans-serif" font-size="18" fill="#000000">line 2</text>
+  <rect x="190" y="224" width="420" height="22" fill="#c62828"/>
+  <text x="618" y="241" font-family="sans-serif" font-size="18" fill="#000000">14</text>
+  <text x="655" y="241" font-family="sans-serif" font-size="18" fill="#c62828">FAIL</text>
+</svg>
+Word counts per line in run 5 turn the rule into arithmetic: output 13 stays under twelve, output 10's second line runs to fourteen.
+
+SECTION: 3
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%">
+  <rect x="0" y="0" width="800" height="250" fill="#ffffff"/>
+  <text x="400" y="36" font-family="sans-serif" font-size="22" fill="#000000" text-anchor="middle">run 5: rule verdict vs my label</text>
+  <rect x="40" y="56" width="720" height="154" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <line x1="200" y1="56" x2="200" y2="210" stroke="#000000" stroke-width="2"/>
+  <line x1="400" y1="56" x2="400" y2="210" stroke="#000000" stroke-width="2"/>
+  <line x1="580" y1="56" x2="580" y2="210" stroke="#000000" stroke-width="2"/>
+  <line x1="40" y1="96" x2="760" y2="96" stroke="#000000" stroke-width="2"/>
+  <line x1="40" y1="134" x2="760" y2="134" stroke="#000000" stroke-width="2"/>
+  <line x1="40" y1="172" x2="760" y2="172" stroke="#000000" stroke-width="2"/>
+  <text x="54" y="84" font-family="sans-serif" font-size="18" fill="#000000">output</text>
+  <text x="212" y="84" font-family="sans-serif" font-size="18" fill="#000000">rule</text>
+  <text x="412" y="84" font-family="sans-serif" font-size="18" fill="#000000">my label</text>
+  <text x="592" y="84" font-family="sans-serif" font-size="18" fill="#000000">match</text>
+  <text x="54" y="122" font-family="sans-serif" font-size="18" fill="#000000">12</text>
+  <text x="212" y="122" font-family="sans-serif" font-size="18" fill="#c62828">no_copy FAIL</text>
+  <text x="412" y="122" font-family="sans-serif" font-size="18" fill="#c62828">FAIL</text>
+  <text x="592" y="122" font-family="sans-serif" font-size="18" fill="#000000">agree</text>
+  <text x="54" y="160" font-family="sans-serif" font-size="18" fill="#000000">8</text>
+  <text x="212" y="160" font-family="sans-serif" font-size="18" fill="#c62828">line_length FAIL</text>
+  <text x="412" y="160" font-family="sans-serif" font-size="18" fill="#2e7d32">PASS</text>
+  <text x="592" y="160" font-family="sans-serif" font-size="18" fill="#c62828">disagree</text>
+  <text x="54" y="198" font-family="sans-serif" font-size="18" fill="#000000">15</text>
+  <text x="212" y="198" font-family="sans-serif" font-size="18" fill="#c62828">line_length FAIL</text>
+  <text x="412" y="198" font-family="sans-serif" font-size="18" fill="#2e7d32">PASS</text>
+  <text x="592" y="198" font-family="sans-serif" font-size="18" fill="#c62828">disagree</text>
+</svg>
+Setting the rule's verdict beside the human label on run 5 shows one agreement and two disagreements, both on twelve-word lines.
+
+SECTION: 4
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%">
+  <rect x="0" y="0" width="800" height="320" fill="#ffffff"/>
+  <text x="400" y="36" font-family="sans-serif" font-size="22" fill="#000000" text-anchor="middle">run 5 failures into buckets</text>
+  <rect x="40" y="80" width="250" height="64" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <text x="56" y="106" font-family="sans-serif" font-size="18" fill="#000000">output 11</text>
+  <text x="56" y="132" font-family="sans-serif" font-size="18" fill="#c62828">no_preamble FAIL</text>
+  <rect x="40" y="180" width="250" height="90" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <text x="56" y="206" font-family="sans-serif" font-size="18" fill="#000000">output 0</text>
+  <text x="56" y="232" font-family="sans-serif" font-size="18" fill="#c62828">shape FAIL</text>
+  <text x="56" y="258" font-family="sans-serif" font-size="18" fill="#c62828">no_preamble FAIL</text>
+  <rect x="520" y="70" width="240" height="50" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <text x="540" y="102" font-family="sans-serif" font-size="18" fill="#000000">wrong_shape</text>
+  <rect x="520" y="150" width="240" height="50" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <text x="540" y="182" font-family="sans-serif" font-size="18" fill="#000000">preamble</text>
+  <rect x="520" y="230" width="240" height="50" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <text x="540" y="262" font-family="sans-serif" font-size="18" fill="#000000">copied</text>
+  <line x1="290" y1="112" x2="508" y2="172" stroke="#000000" stroke-width="2"/>
+  <path d="M516,175 L498,174 L504,160 Z" fill="#000000"/>
+  <line x1="290" y1="225" x2="508" y2="101" stroke="#000000" stroke-width="2"/>
+  <path d="M516,97 L498,98 L505,112 Z" fill="#000000"/>
+  <text x="400" y="305" font-family="sans-serif" font-size="18" fill="#000000" text-anchor="middle">shape is first</text>
+</svg>
+Output 11 fails one rule and lands in preamble, while output 0 fails two and lands in the bucket of the first rule in the fixed order.
+
+SECTION: 5
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%">
+  <rect x="0" y="0" width="800" height="320" fill="#ffffff"/>
+  <text x="400" y="36" font-family="sans-serif" font-size="22" fill="#000000" text-anchor="middle">history: one row per run</text>
+  <rect x="40" y="56" width="720" height="230" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+  <line x1="160" y1="56" x2="160" y2="286" stroke="#000000" stroke-width="2"/>
+  <line x1="340" y1="56" x2="340" y2="286" stroke="#000000" stroke-width="2"/>
+  <line x1="500" y1="56" x2="500" y2="286" stroke="#000000" stroke-width="2"/>
+  <line x1="630" y1="56" x2="630" y2="286" stroke="#000000" stroke-width="2"/>
+  <line x1="40" y1="96" x2="760" y2="96" stroke="#000000" stroke-width="2"/>
+  <line x1="40" y1="134" x2="760" y2="134" stroke="#000000" stroke-width="2"/>
+  <line x1="40" y1="172" x2="760" y2="172" stroke="#000000" stroke-width="2"/>
+  <line x1="40" y1="210" x2="760" y2="210" stroke="#000000" stroke-width="2"/>
+  <line x1="40" y1="248" x2="760" y2="248" stroke="#000000" stroke-width="2"/>
+  <text x="52" y="84" font-family="sans-serif" font-size="18" fill="#000000">run</text>
+  <text x="172" y="84" font-family="sans-serif" font-size="18" fill="#000000">wrong_shape</text>
+  <text x="352" y="84" font-family="sans-serif" font-size="18" fill="#000000">preamble</text>
+  <text x="512" y="84" font-family="sans-serif" font-size="18" fill="#000000">copied</text>
+  <text x="642" y="84" font-family="sans-serif" font-size="18" fill="#000000">pass rate</text>
+  <text x="52" y="122" font-family="sans-serif" font-size="18" fill="#000000">run 1</text>
+  <text x="172" y="122" font-family="sans-serif" font-size="18" fill="#000000">0</text>
+  <text x="352" y="122" font-family="sans-serif" font-size="18" fill="#000000">0</text>
+  <text x="512" y="122" font-family="sans-serif" font-size="18" fill="#000000">0</text>
+  <text x="642" y="122" font-family="sans-serif" font-size="18" fill="#2e7d32">1.00</text>
+  <text x="52" y="160" font-family="sans-serif" font-size="18" fill="#000000">run 2</text>
+  <text x="172" y="160" font-family="sans-serif" font-size="18" fill="#000000">0</text>
+  <text x="352" y="160" font-family="sans-serif" font-size="18" fill="#000000">0</text>
+  <text x="512" y="160" font-family="sans-serif" font-size="18" fill="#000000">0</text>
+  <text x="642" y="160" font-family="sans-serif" font-size="18" fill="#2e7d32">1.00</text>
+  <text x="52" y="198" font-family="sans-serif" font-size="18" fill="#000000">run 3</text>
+  <text x="172" y="198" font-family="sans-serif" font-size="18" fill="#000000">0</text>
+  <text x="352" y="198" font-family="sans-serif" font-size="18" fill="#000000">0</text>
+  <text x="512" y="198" font-family="sans-serif" font-size="18" fill="#000000">0</text>
+  <text x="642" y="198" font-family="sans-serif" font-size="18" fill="#2e7d32">1.00</text>
+  <text x="52" y="236" font-family="sans-serif" font-size="18" fill="#000000">run 4</text>
+  <text x="172" y="236" font-family="sans-serif" font-size="18" fill="#000000">0</text>
+  <text x="352" y="236" font-family="sans-serif" font-size="18" fill="#000000">0</text>
+  <text x="512" y="236" font-family="sans-serif" font-size="18" fill="#000000">0</text>
+  <text x="642" y="236" font-family="sans-serif" font-size="18" fill="#2e7d32">1.00</text>
+  <text x="52" y="274" font-family="sans-serif" font-size="18" fill="#000000">run 5</text>
+  <text x="172" y="274" font-family="sans-serif" font-size="18" fill="#c62828">&gt; 0</text>
+  <text x="352" y="274" font-family="sans-serif" font-size="18" fill="#c62828">&gt; 0</text>
+  <text x="512" y="274" font-family="sans-serif" font-size="18" fill="#000000">0</text>
+  <line x1="670" y1="256" x2="670" y2="272" stroke="#c62828" stroke-width="3"/>
+  <path d="M670,280 L661,266 L679,266 Z" fill="#c62828"/>
+</svg>
+Reading the history down its columns shows four runs of empty buckets and a full pass rate, then run 5 filling wrong_shape and preamble while the pass rate drops.

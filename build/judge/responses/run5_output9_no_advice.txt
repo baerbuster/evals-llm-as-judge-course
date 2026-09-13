@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem simply reflects on the speaker's experience without instructing the person to take any action.

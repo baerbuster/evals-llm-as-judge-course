@@ -1,0 +1,5 @@
+run,shape,line_length,no_preamble,no_copy,specific,mood,no_advice,pass_rate
+run1,0,0,0,0,0,0,0,1.00
+run2,0,0,0,0,1,0,1,0.90
+run3,0,0,0,0,7,0,1,0.60
+run4,0,0,0,0,9,0,3,0.40

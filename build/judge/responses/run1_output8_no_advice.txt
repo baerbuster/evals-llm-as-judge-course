@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem stays descriptive and reflective throughout, offering imagery rather than any instruction or advice to the person.

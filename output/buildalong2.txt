@@ -1,0 +1,129 @@
+== step 1: load the run ==
+run: run5
+outputs: 20
+
+== step 2: one rule, two outputs ==
+output 13  shape  PASS  4 non-empty lines
+output 5  shape  FAIL  5 non-empty lines, expected 4
+
+== step 3: all four rules on every output ==
+output 0  shape  FAIL  5 non-empty lines, expected 4
+output 0  no_preamble  FAIL  first line is a lead-in: Here is a poem for you:
+output 3  no_preamble  FAIL  first line is a lead-in: Sure! Here you go:
+output 5  shape  FAIL  5 non-empty lines, expected 4
+output 7  shape  FAIL  5 non-empty lines, expected 4
+output 7  no_preamble  FAIL  first line is a lead-in: Here is a poem about your daughter:
+output 8  line_length  FAIL  a line has 12 words, limit is 11
+output 10  line_length  FAIL  a line has 14 words, limit is 11
+output 11  no_preamble  FAIL  first line is a lead-in: Here is your poem:
+output 12  no_copy  FAIL  poem repeats: I have never been so glad to see a jetway
+output 15  line_length  FAIL  a line has 12 words, limit is 11
+output 18  shape  FAIL  5 non-empty lines, expected 4
+output 18  no_preamble  FAIL  first line is a lead-in: Sure, here you go:
+checks run: 80
+failed checks: 13
+
+== step 4: rules against the labels ==
+agreements: 78
+disagreements: 2
+output 8  line_length  FAIL  human says pass: a line has 12 words, limit is 11
+output 15  line_length  FAIL  human says pass: a line has 12 words, limit is 11
+
+== step 5: sort every failure into a bucket ==
+wrong_shape: 7  outputs 0, 5, 7, 8, 10, 15, 18
+preamble: 2  outputs 3, 11
+copied: 1  outputs 12
+passed all rules: 10
+pass rate: 0.50
+
+== step 6: one row per run, oldest first ==
+run   wrong_shape  preamble  copied  pass_rate
+run1  0            0         0       1.00
+run2  0            0         0       1.00
+run3  0            0         0       1.00
+run4  0            0         0       1.00
+run5  7            2         1       0.50
+
+== step 7: the trend across the history ==
+runs in history: 5
+grew the most: wrong_shape +7  pass rate 1.00 -> 0.50  getting worse: yes
+
+mode: replay
+== judge step 1: the grader, imported ==
+run: run5
+outputs: 20
+lesson 1 history:
+run   wrong_shape  preamble  copied  pass_rate
+run1  0            0         0       1.00
+run2  0            0         0       1.00
+run3  0            0         0       1.00
+run4  0            0         0       1.00
+run5  7            2         1       0.50
+
+== judge step 2: the prompt and the parser ==
+criteria: specific, mood, no_advice
+prompt ends: Write FAIL in place of PASS when the criterion is not met.
+sample reply  FAIL  No detail from the situation appears in the poem.
+junk reply  PARSE_ERROR  reply did not match the two-line shape
+
+== judge step 3: one poem, one criterion ==
+output 0  specific  FAIL  The poem uses abstract phrasing about absence and quiet but never mentions Rufus, the collar, or the hall specifically.
+
+== judge step 4: three criteria on every output ==
+output 0  specific  FAIL  The poem uses abstract phrasing about absence and quiet but never mentions Rufus, the collar, or the hall specifically.
+output 1  mood  FAIL  The poem undercuts the joyful acceptance news with ominous, mournful imagery like "the sea keeps everything it takes at last," creating a mood mismatched to good news.
+output 2  mood  FAIL  The poem presumes grief and loss ("practice her absence") rather than capturing the anxious uncertainty of awaiting unknown biopsy results.
+output 3  specific  FAIL  The poem uses only abstract imagery like "hours lie flat and yellow" without mentioning any concrete details such as the chair number, the DMV, or the waiting number.
+output 5  specific  FAIL  The poem uses only generic imagery ("great noise," "everything still standing," "sky rinsed clean") without naming any concrete detail like the tornado, the oak tree, or the two streets.
+output 7  specific  FAIL  The poem uses generic imagery about first steps and joy but never mentions the kitchen tile, the dog, or the water bowl from the actual situation.
+output 8  no_advice  FAIL  The line "Let it turn there, sweet and green, for a stranger" is an imperative instruction telling the person what to do with the air freshener.
+output 10  specific  FAIL  The poem uses only generic imagery like "grey" and "weather" without naming specific concrete details from the situation, such as the rain, the library book, or the repeated page.
+output 10  no_advice  FAIL  The lines "Put it down. Go out and walk in the weather." directly instruct the person on what to do.
+output 11  specific  FAIL  The poem uses only abstract imagery ("a hand in the dark," "the hot thing rising") without naming any concrete detail like the car, the key, the parking lot, or the milk.
+output 13  specific  FAIL  The poem stays abstract and never mentions the five dollar bill, the movie ticket, or the winter coat pocket.
+output 15  specific  FAIL  The poem uses only generic imagery (warmth, rising, gold) without naming any concrete detail like "bakery," "job," or "Monday" from the actual situation.
+output 17  specific  FAIL  The poem uses only vague, generic language ("small complaining thing," "such mending") without naming the gate, olive oil, or WD-40 from the situation.
+output 17  no_advice  FAIL  The line "Fix the next one too; it costs you nothing" directly instructs the person on what to do.
+output 18  no_advice  FAIL  The lines "Speak up next Tuesday. Put your name on it." directly instruct the person on what actions to take.
+output 19  specific  FAIL  The poem uses only abstract imagery (dark, cold, grief) without naming any concrete detail from the situation like the cat, four nights, thinness, or the sweater.
+output 19  mood  FAIL  The situation describes the cat's relieved, mundane return, but the poem treats it as a permanent, mournful loss, mismatching the actual mood.
+judge verdicts: 60
+judge failures: 17
+
+== judge step 5: the judge against your labels ==
+true positives: 16
+false positives: 1
+false negatives: 1
+true negatives: 42
+precision: 0.94
+recall: 0.94
+
+== judge step 6: where the judge and you disagree ==
+false positives, judge too strict:
+output 8  no_advice  FAIL  human says pass: The line "Let it turn there, sweet and green, for a stranger" is an imperative instruction telling the person what to do with the air freshener.
+false negatives, judge too lenient:
+output 6  specific  PASS  human says fail: The poem includes concrete details like "the first one always going to the fire," echoing the burned first pancake from the situation.
+
+== judge step 7: every failure in a bucket, and the row it makes ==
+wrong_shape: 7
+preamble: 2
+copied: 1
+generic: 3
+wrong_mood: 2
+advice: 0
+passed every check: 5
+pass rate: 0.25
+judge trust  tp 16  fp 1  fn 1
+precision: 0.94
+recall: 0.94
+run   shape  line_length  no_preamble  no_copy  specific  mood  no_advice  pass_rate
+run1  0      0            0            0        0         0     0          1.00
+run2  0      0            0            0        1         0     1          0.90
+run3  0      0            0            0        7         0     1          0.60
+run4  0      0            0            0        9         0     3          0.40
+run5  4      3            5            1        10        3     4          0.25
+
+== judge step 8: the answer you came for ==
+runs in history: 5
+trending down the most: specific +10  pass rate 1.00 -> 0.25  getting worse: yes
+

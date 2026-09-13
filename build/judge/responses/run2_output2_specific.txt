@@ -1,0 +1,2 @@
+VERDICT: PASS
+REASON: The poem names concrete details from the situation, including "Friday" and scrubbing "the same clean tile a third time."
